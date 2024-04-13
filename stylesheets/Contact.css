@@ -1,0 +1,82 @@
+#contact
+{
+    display: flex;
+    display: -webkit-flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact_sub_container
+{
+    width: 100%;
+    max-width: 800px;
+    gap: 1vh;
+    display: flex;
+    display: -webkit-flexbox;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#logo
+{
+    flex-grow: 1;
+    font-size: 1.8vh;
+    max-width: 23vh;
+}
+
+.contact_info_list
+{
+    flex-grow: 1;
+    min-width: 300px;
+    display: flex;
+    display: -webkit-flexbox;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.contact_info
+{
+    display: flex;
+    display: -webkit-flexbox;
+    flex-direction: row;
+    margin-bottom: 1vh;
+    font-size: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_info_label
+{
+    margin-right: 0.5vh;
+    font-size: inherit;
+    padding-right: 1vh;
+}
+
+.contact_info_value
+{
+    text-decoration: underline;
+    font-size: inherit;
+}
+
+.computer_screen
+{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+.computer_light
+{
+    animation: blinking 3s infinite;
+}
+
+@keyframes blinking
+{
+    from, to { background-color: var(--primary-color); }
+    5% { background-color: var(--background-color); }
+}
+
+

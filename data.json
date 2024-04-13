@@ -1,0 +1,166 @@
+{
+    "infos": [
+        {"label": "^Email", "value": "you@gmail.com"},
+        {"label": "^Phone", "value": "111-111-1111"},
+        {
+            "label": "^LinkedIn",
+            "value": "<a class='url' href='https://www.linkedin.com/'>First Last</a>"
+        },
+        {
+            "label": "^Github",
+            "value": "<a class='url' href='https://github.com/'>First Last</a>"
+        }
+    ],
+    "employments": [
+        {
+            "title": "Company name (from - to)",
+            "url": "https://google.com/",
+            "sections": [
+                {
+                    "label": "> Responsabilities",
+                    "values": [
+                        {
+                            "description": "Responsability 1",
+                            "url": "",
+                            "url_title": ""
+                        },
+                        {
+                            "description": "Responsability 2",
+                            "url": "",
+                            "url_title": ""
+                        },
+                        {
+                            "description": "Responsability 3",
+                            "url": "",
+                            "url_title": ""
+                        }
+                    ]
+                },
+                {
+                    "label": "> Highlights",
+                    "values": [
+                        {
+                            "description": "Description of project 1",
+                            "url": "",
+                            "url_title":""
+                        },
+                        {
+                            "description": "Description of project 2",
+                            "url": "",
+                            "url_title":""
+                        },
+                        {
+                            "description": "Description of project 3",
+                            "url": "",
+                            "url_title":""
+                        }
+                    ]
+                },
+                {
+                    "label": "> Technologies",
+                    "values": [
+                        {
+                            "description": "Technology 1, Technology 2, Technology 3",
+                            "url": "",
+                            "url_title":""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "volunteerings": [
+        {
+            "title": "Organisation name",
+            "url": "https://google.com/",
+            "sections": [
+                {
+                    "label": "> Contributions",
+                    "values": [
+                        {
+                            "description": "Contribution description 1",
+                            "url": "https://github.com/",
+                            "url_title": "Minor feature, fixing 1 issue"
+                        },
+                        {
+                            "description": "Contribution description 2",
+                            "url": "https://github.com/",
+                            "url_title": "Minor feature, fixing 1 issue"
+                        },
+                        {
+                            "description": "Contribution description 3",
+                            "url": "https://github.com/",
+                            "url_title": "Minor bug fix, fixing 1 issue"
+                        }
+                    ]
+                },
+                {
+                    "label": "> Technologies",
+                    "values": [
+                        {
+                            "description": "Technology 1, Technology 2, Technology 3",
+                            "url": "",
+                            "url_title":""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "educations": [
+        {
+            "title": "University name",
+            "url": "https://google.com/",
+            "sections": [
+                {
+                    "label": "> Degree name",
+                    "values": [
+                        {
+                            "description": "I learned...",
+                            "url": "",
+                            "url_title": ""
+                        }
+                    ]
+                },
+                {
+                    "label": "> Technologies",
+                    "values": [
+                        {
+                            "description": "Technology 1, Technology 2, Technology 3",
+                            "url": "",
+                            "url_title":""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "",
+            "url": "",
+            "sections": [
+                {
+                    "label": "> Project 1 title",
+                    "values": [
+                        {
+                            "description": "Description",
+                            "url": "https://github.com/",
+                            "url_title": "Repo"
+                        }
+                    ]
+                },
+                {
+                    "label": "> Project 2 title",
+                    "values": [
+                        {
+                            "description": "Description",
+                            "url": "https://github.com/",
+                            "url_title": "Website"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
