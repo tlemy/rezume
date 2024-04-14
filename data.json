@@ -1,36 +1,36 @@
 {
     "infos": [
-        {"label": "^Email", "value": "you@gmail.com"},
-        {"label": "^Phone", "value": "111-111-1111"},
+        {"label": "^Email", "value": "john.doe@example.com"},
+        {"label": "^Phone", "value": "123-456-7890"},
         {
             "label": "^LinkedIn",
-            "value": "<a class='url' href='https://www.linkedin.com/'>First Last</a>"
+            "value": "<a class='url' href='https://www.linkedin.com/in/johndoe/'>John Doe</a>"
         },
         {
             "label": "^Github",
-            "value": "<a class='url' href='https://github.com/'>First Last</a>"
+            "value": "<a class='url' href='https://github.com/johndoe'>John Doe</a>"
         }
     ],
     "employments": [
         {
-            "title": "Company name (from - to)",
-            "url": "https://google.com/",
+            "title": "ABC Corporation (2018 - 2022)",
+            "url": "https://abccorp.com/",
             "sections": [
                 {
-                    "label": "> Responsabilities",
+                    "label": "> Responsibilities",
                     "values": [
                         {
-                            "description": "Responsability 1",
+                            "description": "Led a team of developers in implementing new features for the company's flagship product.",
                             "url": "",
                             "url_title": ""
                         },
                         {
-                            "description": "Responsability 2",
+                            "description": "Managed software development projects, ensuring on-time delivery and quality assurance.",
                             "url": "",
                             "url_title": ""
                         },
                         {
-                            "description": "Responsability 3",
+                            "description": "Collaborated with cross-functional teams to identify and address technical challenges.",
                             "url": "",
                             "url_title": ""
                         }
@@ -40,17 +40,17 @@
                     "label": "> Highlights",
                     "values": [
                         {
-                            "description": "Description of project 1",
+                            "description": "Implemented a scalable cloud-based infrastructure, resulting in a 30% reduction in operational costs.",
                             "url": "",
                             "url_title":""
                         },
                         {
-                            "description": "Description of project 2",
+                            "description": "Optimized codebase for performance, leading to a 20% increase in application responsiveness.",
                             "url": "",
                             "url_title":""
                         },
                         {
-                            "description": "Description of project 3",
+                            "description": "Introduced Agile methodologies, improving team productivity and project transparency.",
                             "url": "",
                             "url_title":""
                         }
@@ -60,7 +60,7 @@
                     "label": "> Technologies",
                     "values": [
                         {
-                            "description": "Technology 1, Technology 2, Technology 3",
+                            "description": "Java, Spring Boot, AWS, Docker",
                             "url": "",
                             "url_title":""
                         }
@@ -71,26 +71,26 @@
     ],
     "volunteerings": [
         {
-            "title": "Organisation name",
-            "url": "https://google.com/",
+            "title": "Tech for Good Organization",
+            "url": "https://techforgood.org/",
             "sections": [
                 {
                     "label": "> Contributions",
                     "values": [
                         {
-                            "description": "Contribution description 1",
-                            "url": "https://github.com/",
-                            "url_title": "Minor feature, fixing 1 issue"
+                            "description": "Developed a mobile app to facilitate donations for underprivileged communities.",
+                            "url": "https://github.com/techforgood/project",
+                            "url_title": "Open Source Contribution: Mobile App Development"
                         },
                         {
-                            "description": "Contribution description 2",
-                            "url": "https://github.com/",
-                            "url_title": "Minor feature, fixing 1 issue"
+                            "description": "Organized and led coding workshops for high school students interested in technology.",
+                            "url": "",
+                            "url_title": ""
                         },
                         {
-                            "description": "Contribution description 3",
-                            "url": "https://github.com/",
-                            "url_title": "Minor bug fix, fixing 1 issue"
+                            "description": "Contributed to the development of a web platform for connecting volunteers with local charities.",
+                            "url": "https://github.com/techforgood/project",
+                            "url_title": "Open Source Contribution: Web Development"
                         }
                     ]
                 },
@@ -98,7 +98,7 @@
                     "label": "> Technologies",
                     "values": [
                         {
-                            "description": "Technology 1, Technology 2, Technology 3",
+                            "description": "React, Node.js, MongoDB",
                             "url": "",
                             "url_title":""
                         }
@@ -109,14 +109,14 @@
     ],
     "educations": [
         {
-            "title": "University name",
-            "url": "https://google.com/",
+            "title": "University of XYZ",
+            "url": "https://xyzuniv.edu/",
             "sections": [
                 {
-                    "label": "> Degree name",
+                    "label": "> Bachelor of Science in Computer Science",
                     "values": [
                         {
-                            "description": "I learned...",
+                            "description": "Studied various topics including algorithms, data structures, and software engineering principles.",
                             "url": "",
                             "url_title": ""
                         }
@@ -126,7 +126,7 @@
                     "label": "> Technologies",
                     "values": [
                         {
-                            "description": "Technology 1, Technology 2, Technology 3",
+                            "description": "C++, Python, SQL",
                             "url": "",
                             "url_title":""
                         }
@@ -137,26 +137,26 @@
     ],
     "projects": [
         {
-            "title": "",
+            "title": "Personal Projects",
             "url": "",
             "sections": [
                 {
-                    "label": "> Project 1 title",
+                    "label": "> Project 1: Portfolio Website",
                     "values": [
                         {
-                            "description": "Description",
-                            "url": "https://github.com/",
+                            "description": "Designed and developed a personal portfolio website showcasing my skills and projects.",
+                            "url": "https://github.com/johndoe/portfolio",
                             "url_title": "Repo"
                         }
                     ]
                 },
                 {
-                    "label": "> Project 2 title",
+                    "label": "> Project 2: Task Management App",
                     "values": [
                         {
-                            "description": "Description",
-                            "url": "https://github.com/",
-                            "url_title": "Website"
+                            "description": "Created a task management application with features for task prioritization and deadline tracking.",
+                            "url": "https://github.com/johndoe/task-manager",
+                            "url_title": "Repo"
                         }
                     ]
                 }
