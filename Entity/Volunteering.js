@@ -1,4 +1,4 @@
-export default class Entry
+export default class Volunteering
 {
     constructor (info)
     {
@@ -24,17 +24,17 @@ export default class Entry
                 description.classList.add("section_value");
                 description.innerText = v.description;
 
-                const url_title = document.createElement("a");
-                url_title.setAttribute("href", v.url);
-                url_title.innerText = v.url_title;
-                url_title.classList.add("section_sub_value");
+                const meta_info = document.createElement("a");
+                meta_info.setAttribute("href", v.url);
+                meta_info.innerText = v.meta_info;
+                meta_info.classList.add("section_sub_value");
 
                 const value = document.createElement("div");
                 value.appendChild(description);
 
-                if (v.url_title != "")
+                if (v.meta_info != "")
                 {
-                    value.appendChild(url_title);
+                    value.appendChild(meta_info);
                 }
 
                 section.appendChild(value);

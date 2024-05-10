@@ -64,8 +64,8 @@
 
 .computer_screen
 {
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
+    color: #FF9E00;
+    background-color: #8338ec;
 }
 
 .computer_light
@@ -75,8 +75,11 @@
 
 @keyframes blinking
 {
-    from, to { background-color: var(--primary-color); }
-    5% { background-color: var(--background-color); }
+    from, to { background-color: #FF9E00; }
+    5% { background-color: black; }
 }
 
-
+#language 
+{
+    display: flex;
+}

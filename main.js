@@ -1,35 +1,25 @@
-import data from "./data.json" assert { type: 'json' };
+import fr from "./data/fr.json" assert { type: 'json' };
+import en from "./data/en.json" assert { type: 'json' };
 import Banner from "./Component/Banner.js"
 import Contact from "./Component/Contact.js";
+import Employment from "./Entity/Employment.js";
+import Education from "./Entity/Education.js";
 import Section from "./Component/Section.js";
-import Footer from "./Component/Footer.js"
-import Entry from "./Entity/Entry.js";
+import Volunteering from "./Entity/Volunteering.js";
 
-const bannerText = String.raw`
-$$$$$$$\  $$\                       $$\     
-$$  _____|\__|                      $$ |    
-$$ |      $$\  $$$$$$\   $$$$$$$\ $$$$$$\   
-$$$$$\    $$ |$$  __$$\ $$  _____|\_$$  _|  
-$$  __|   $$ |$$ |  \__|\$$$$$$\    $$ |    
-$$ |      $$ |$$ |       \____$$\   $$ |$$\ 
-$$ |      $$ |$$ |      $$$$$$$  |  \$$$$  |
-\__|      \__|\__|      \_______/    \____/ 
-                                            
+const data = new Map()
+data.set("FR", fr); 
+data.set("EN", en);
 
-$$\                            $$\          
-$$ |                           $$ |         
-$$ |      $$$$$$\   $$$$$$$\ $$$$$$\        
-$$ |      \____$$\ $$  _____|\_$$  _|       
-$$ |      $$$$$$$ |\$$$$$$\    $$ |         
-$$ |     $$  __$$ | \____$$\   $$ |$$\      
-$$$$$$$$\\$$$$$$$ |$$$$$$$  |  \$$$$  |     
-\________|\_______|\_______/    \____/  
-`;
+if (localStorage.getItem("language") == null)
+{
+    localStorage.setItem("language", "FR");
+}
 
-document.body.appendChild(new Banner(bannerText));
-document.body.appendChild(new Contact(data.infos));
-document.body.appendChild(new Section("^Employment").build().populate(data.employments, Entry));
-document.body.appendChild(new Section("^Volunteering").build().populate(data.volunteerings, Entry));
-document.body.appendChild(new Section("^Education").build().populate(data.educations, Entry));
-document.body.appendChild(new Section("^Projects").build().populate(data.projects, Entry));
-document.body.appendChild(new Footer().build());
+let language = localStorage.getItem("language");
+
+document.body.appendChild(new Banner());
+document.body.appendChild(new Contact(data, language));
+document.body.appendChild(new Section("^Employment").build().populate(data.get(language).employments, Employment));
+document.body.appendChild(new Section("^Volunteering").build().populate(data.get(language).volunteerings, Volunteering));
+document.body.appendChild(new Section("^Education").build().populate(data.get(language).educations, Education));

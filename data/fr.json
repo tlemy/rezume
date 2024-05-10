@@ -1,0 +1,89 @@
+{
+    "infos": [
+        {"label": "^Email", "value": "lemyted21@gmail.com"},
+        {
+            "label": "^LinkedIn",
+            "value": "<a class='url' href='https://www.linkedin.com/in/ted-lemy-689393174/'>Ted Lemy</a>"
+        }
+    ],
+    "employments": [
+        {
+            "title": "Développeur logiciels chez Humania Assurances (avril 2022 - présent)",
+            "url": "https://www.humania.ca/fr-CA/particuliers",
+            "sections": [
+                {
+                    "label": "> Responsabilités",
+                    "values": [
+                        "Analyser et développer de nouvelles fonctionnalités",
+                        "Développer des tests unitaires, des tests d'intégration et effectuer des tests bout en bout pour de nouvelles fonctionnalités",
+                        "Investiguer les bogues en production / corriger les bogues"
+                    ]
+                },
+                {
+                    "label": "> Faits saillants",
+                    "values": [
+                        "Développement de l'application web en introduisant des produits supplémentaires et en étendant les produits d'assurance existants",
+                        "Expansion du service de génération de documents pour générer dynamiquement les contrats d'assurance pour les nouveaux produits",
+                        "Élargissement des capacités du service de génération de rapports pour acquérir des données de vente spécifiquement liées aux nouveaux produits introduits"
+                    ]
+                },
+                {
+                    "label": "> Technologies",
+                    "values": [
+                        "Java, Springboot, Git, Azure Devops"
+                    ]
+                }
+            ]
+        }
+    ],
+    "volunteerings": [
+        {
+            "title": "Linux Mint",
+            "url": "https://www.linuxmint.com/fr/",
+            "sections": [
+                {
+                    "label": "> Contributions",
+                    "values": [
+                        {
+                            "description": "Ajout d'un nouveau paramètre dans l'éditeur de texte pour fermer la fenêtre lors de la fermeture du dernier onglet.",
+                            "url": "https://github.com/linuxmint/xed/pull/613",
+                            "meta_info": "Fonctionnalité mineure"
+                        },
+                        {
+                            "description": "Ajout de raccourci pour dupliquer une ligne dans l'éditeur de texte.",
+                            "url": "https://github.com/linuxmint/xed/pull/615",
+                            "meta_info": "Fonctionnalité mineure"
+                        },
+                        {
+                            "description": "Correction d'un bogue dans l'éditeur de texte concernant un caractère d'espace final.",
+                            "url": "https://github.com/linuxmint/xed/pull/616",
+                            "meta_info": "Correction mineure de bogue"
+                        },
+                        {
+                            "description": "Correction d'un bogue dans l'éditeur de texte concernant l'enregistrement de documents vides.",
+                            "url": "https://github.com/linuxmint/xed/pull/617",
+                            "meta_info": "Correction mineure de bogue"
+                        }
+                    ]
+                },
+                {
+                    "label": "> Technologies",
+                    "values": [
+                        {
+                            "description": "C, Gtk, Git",
+                            "url": "",
+                            "meta_info":""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "educations": [
+        {
+            "title": "Université Laval, Canada (janvier 2024 - présent)",
+            "url": "https://www.ulaval.ca/",
+            "value": "> BAC en informatique (soirs et fin de semaine)"
+        }
+    ]
+}

@@ -1,38 +1,19 @@
 @import url("./stylesheets/Banner.css");
 @import url("./stylesheets/Contact.css");
-
-:root
-{
-    --primary-color: #FF9E00;
-    --secondary-color: #8338ec;
-    --text-color: white;
-    --background-color: black;
-}
+@import url("./stylesheets/Employment.css");
+@import url("./stylesheets/Volunteering.css");
+@import url("./stylesheets/Education.css");
 
 body
 {
-    background-color: var(--background-color);
+    background-color: black;
     font-family: monospace, monospace;
     overflow-x: hidden;
 }
 
-footer
-{
-    color: var(--text-color);
-    align-items: center;
-    text-align: center;
-    position: static;
-    bottom: 0;
-}
-
-footer > a
-{
-    color: var(--text-color);
-}
-
 .container
 {
-    color: var(--primary-color);
+    color: #FF9E00;
     margin-bottom: 7vh;
 }
 
@@ -53,7 +34,7 @@ footer > a
 
 .setion_title
 {
-    color: var(--secondary-color) ;
+    color: #8338ec;
     margin-left: 5vw;
     margin-top: 5vh;
     font-size: 2vh;
@@ -61,7 +42,7 @@ footer > a
 
 .section_value
 {
-    color: var(--text-color);
+    color: white;
     margin-left: 6.5vw;
     margin-top: 2.5vh;
     font-size: 2vh;
@@ -74,15 +55,15 @@ footer > a
     margin-bottom: 5vh;
     font-size: 2vh;
     text-align: left;
-    background-color: var(--secondary-color);
-    color:var(--background-color);
+    background-color: #8338ec;
+    color:black;
     padding-left: 0.5vw;
     padding-right: 0.5vw;
 }
 
 .entry_list
 {
-    border: 0.5vh dashed var(--primary-color);
+    border: 0.5vh dashed #FF9E00;
     margin-top: 1vh;
 }
 
@@ -95,27 +76,52 @@ footer > a
 
 .label
 {
-    background-color: var(--primary-color);
-    color: var(--background-color);
+    background-color: #FF9E00;
+    color: black;
 }
 
 a.url:link
 {
-    color: var(--primary-color);
+    color: #FF9E00;
 }
 
 a.url:visited
 {
-    color: var(--primary-color);
+    color:  #FF9E00;
 }
 
 a.url:hover
 {
-    color: var(--primary-color);
+    color:  #FF9E00;
 }
 
 a.url:active
 {
-    color: var(--primary-color);
+    color:  #FF9E00;
 }
+
+.radioButton
+{
+    color: white;
+    border: 0.25vh solid #8338ec;
+    width: 6vh;
+    height: 1.8vh;
+    text-align: center;
+    -webkit-user-select: none;
+    font-size: 1.8vh;
+}
+
+.radioButtonClicked
+{
+    color: black;
+    border: 0.25vh solid #8338ec;
+    background-color: #8338ec;
+    width: 6vh;
+    height: 1.8vh;
+    text-align: center;
+    -webkit-user-select: none;
+    font-size: 1.8vh;
+}
+
+
 

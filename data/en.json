@@ -1,0 +1,89 @@
+{
+    "infos": [
+        {"label": "^Email", "value": "lemyted21@gmail.com"},
+        {
+            "label": "^LinkedIn",
+            "value": "<a class='url' href='https://www.linkedin.com/in/ted-lemy-689393174/'>Ted Lemy</a>"
+        }
+    ],
+    "employments": [
+        {
+            "title": "Software developer at Humania Insurances (April 2022 - present)",
+            "url": "https://www.humania.ca/en-CA/individual",
+            "sections": [
+                {
+                    "label": "> Responsabilities",
+                    "values": [
+                        "Analyse and develop new features",
+                        "Develop unit tests, integration tests and perform end to end tests for new features",
+                        "Investigate bugs in production / fix bugs"
+                    ]
+                },
+                {
+                    "label": "> Highlights",
+                    "values": [
+                        "Developed the customer-facing web application and associated services by introducing additional products and expanding existing insurance products",
+                        "Expanded the document generation service to dynamically generate the insurance contracts for the new products",
+                        "Broadened the capabilities of the report generation service to acquire sales data specifically related to the new products introduced"
+                    ]
+                },
+                {
+                    "label": "> Technologies",
+                    "values": [
+                        "Java, Springboot, Git, Azure Devops"
+                    ]
+                }
+            ]
+        }
+    ],
+    "volunteerings": [
+        {
+            "title": "Linux Mint",
+            "url": "https://www.linuxmint.com/",
+            "sections": [
+                {
+                    "label": "> Contributions",
+                    "values": [
+                        {
+                            "description": "Added new setting in text editor to close the window when closing the last tab.",
+                            "url": "https://github.com/linuxmint/xed/pull/613",
+                            "meta_info": "Minor feature, fixing 1 issue"
+                        },
+                        {
+                            "description": "Added shortcut to duplicate line in text editor.",
+                            "url": "https://github.com/linuxmint/xed/pull/615",
+                            "meta_info": "Minor feature, fixing 1 issue"
+                        },
+                        {
+                            "description": "Fixed bug in text editor about a trailling space character.",
+                            "url": "https://github.com/linuxmint/xed/pull/616",
+                            "meta_info": "Minor bug fix, fixing 1 issue"
+                        },
+                        {
+                            "description": "Fixed bug in text editor about saving empty documents.",
+                            "url": "https://github.com/linuxmint/xed/pull/617",
+                            "meta_info": "Minor bug fix, fixing 1 issue"
+                        }
+                    ]
+                },
+                {
+                    "label": "> Technologies",
+                    "values": [
+                        {
+                            "description": "C, Gtk, Git",
+                            "url": "",
+                            "meta_info":""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "educations": [
+        {
+            "title": "University of Laval, Canada (January 2024 - present)",
+            "url": "https://www.ulaval.ca/en",
+            "value": "> Bachelors Degree in Computer Science (nights and weekends)"
+        }
+    ]
+}
